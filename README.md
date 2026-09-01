@@ -76,6 +76,7 @@ Set the source bucket to trigger the Lambda function on `ObjectCreated` events f
 
 ### 7. Wrote the Lambda Function Code
 The function reads the uploaded `.txt` object, calls `polly.synthesize_speech()`, and writes the returned audio stream to the destination bucket.
+lambda_function.py
 
 ### 8. Tested the System
 Uploaded a sample `.txt` file to the source bucket and confirmed an `.mp3` file was generated in the destination bucket.
